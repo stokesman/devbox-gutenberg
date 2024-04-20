@@ -1,0 +1,344 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gawk@latest": {
+      "last_modified": "2024-03-22T07:26:23-04:00",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#gawk",
+      "source": "devbox-search",
+      "version": "5.2.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i4idzdx3w7cng03h362byhvsjcv6rnqm-gawk-5.2.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/il70hnxnxbcp175k458ga0py56g5lak2-gawk-5.2.2-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/1iwk3c8f6hvdnbaxr2f8z0ymb252j40y-gawk-5.2.2-info"
+            }
+          ],
+          "store_path": "/nix/store/i4idzdx3w7cng03h362byhvsjcv6rnqm-gawk-5.2.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ccv3sxihx74vdp41dzbj2ggd8pnmbq0y-gawk-5.2.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/w6an6gfhni7fwq30flnw54m0hcb2s9xb-gawk-5.2.2-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/zqs9zwpygysqawcjv895d8xncd3z86i9-gawk-5.2.2-info"
+            }
+          ],
+          "store_path": "/nix/store/ccv3sxihx74vdp41dzbj2ggd8pnmbq0y-gawk-5.2.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f5yg83hcv86wkb0v4d6ld7j8b30z4n05-gawk-5.2.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/9pl679qfldr86aia5wmczs531qnbqjxf-gawk-5.2.2-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/fwjcf3ry2b7cg2zrimc43awri4i24di5-gawk-5.2.2-info"
+            }
+          ],
+          "store_path": "/nix/store/f5yg83hcv86wkb0v4d6ld7j8b30z4n05-gawk-5.2.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n2lgzbb7gcy48br83cyzbm3f1k3jkip9-gawk-5.2.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/r7slkbdvii6cp5bfiqjjrjan9vw3n35l-gawk-5.2.2-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/l07rjyivcyvxi7k7i82mkssz3fkfaxif-gawk-5.2.2-info"
+            }
+          ],
+          "store_path": "/nix/store/n2lgzbb7gcy48br83cyzbm3f1k3jkip9-gawk-5.2.2"
+        }
+      }
+    },
+    "gettext@latest": {
+      "last_modified": "2024-03-27T22:32:31-04:00",
+      "resolved": "github:NixOS/nixpkgs/bb2b73df7bcfbd2dd55ff39b944d70547d53c267#gettext",
+      "source": "devbox-search",
+      "version": "0.21.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g5d5h908xyg09sdfq854yxw04jkmfwl0-gettext-0.21.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/zwx2z45sjv642f7qkibk91532dnq3nkg-gettext-0.21.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/cd5x034b4v4m36jd4jigkzbzp0hn6ila-gettext-0.21.1-doc"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/1l61w5dlb8znk72182fgrx7i45qdj7x0-gettext-0.21.1-info"
+            }
+          ],
+          "store_path": "/nix/store/g5d5h908xyg09sdfq854yxw04jkmfwl0-gettext-0.21.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dj442vyd7z7mjlxm0sf7kjvgw4rghybx-gettext-0.21.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/j1iyncn2mqirwi29nvnxqcxpsyzjc8cv-gettext-0.21.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/nmd2kc0fyckj1xwa7913j9v7r57jvn5f-gettext-0.21.1-doc"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/khhv7cd5w3dsj4l4zdx6k0fgc4c0sq6b-gettext-0.21.1-info"
+            }
+          ],
+          "store_path": "/nix/store/dj442vyd7z7mjlxm0sf7kjvgw4rghybx-gettext-0.21.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n1cfdjn5w09khsz2zgl1byw2x3gxgmq6-gettext-0.21.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/j8zlp5gkkxwfi8zlm0lm9h2k1j4y7j8q-gettext-0.21.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/46brryh26sqqlhrp0lziq897bv87xf1v-gettext-0.21.1-doc"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/l8k60k27s3b55s4yiw2rm0mmbmk6r5yg-gettext-0.21.1-info"
+            }
+          ],
+          "store_path": "/nix/store/n1cfdjn5w09khsz2zgl1byw2x3gxgmq6-gettext-0.21.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vpnjryq35yw1mm7p3885nzkzbk6hzgf8-gettext-0.21.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/a93zh1m7v52vdz5qswxbhlwyhvdg9xcd-gettext-0.21.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/wzh5b9jw08j95fm2kas671ll73my2mdg-gettext-0.21.1-doc"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/l9k01awhbnvxspq72c75frjbnkvaqlpr-gettext-0.21.1-info"
+            }
+          ],
+          "store_path": "/nix/store/vpnjryq35yw1mm7p3885nzkzbk6hzgf8-gettext-0.21.1"
+        }
+      }
+    },
+    "mysql80@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#mysql80",
+      "source": "devbox-search",
+      "version": "8.0.36",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q94y1svg70gcz19gsa8dr2n125mppbaa-mysql-8.0.36",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/yaz36ycdwpvk8ba5kl20msig1qd0c2yf-mysql-8.0.36-static"
+            }
+          ],
+          "store_path": "/nix/store/q94y1svg70gcz19gsa8dr2n125mppbaa-mysql-8.0.36"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7diw59npzxkw05700m57c7g272p8lpnm-mysql-8.0.36",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/z82kshrgrbf6qb1n92grr6q4qabmjpzc-mysql-8.0.36-static"
+            }
+          ],
+          "store_path": "/nix/store/7diw59npzxkw05700m57c7g272p8lpnm-mysql-8.0.36"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zzcyj33qz10h409x1hkwh9y2sc34nqqj-mysql-8.0.36",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/gab5pnpy2jxn8w47idv48dabx4x9lzg8-mysql-8.0.36-static"
+            }
+          ],
+          "store_path": "/nix/store/zzcyj33qz10h409x1hkwh9y2sc34nqqj-mysql-8.0.36"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vxjniwpca41b52db7hky29pjag2dxb3m-mysql-8.0.36",
+              "default": true
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/a1sl0bk2xc3zfy6minpyv7k30fnkg5ml-mysql-8.0.36-static"
+            }
+          ],
+          "store_path": "/nix/store/vxjniwpca41b52db7hky29pjag2dxb3m-mysql-8.0.36"
+        }
+      }
+    },
+    "nginx@latest": {
+      "last_modified": "2023-11-19T17:46:56Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#nginx",
+      "source": "devbox-search",
+      "version": "1.24.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/c84r49vdcb45jvlblqpi6wn6lga39vib-nginx-1.24.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/g2hgfrabi5xjkgfikljbjsxakllwqkqi-nginx-1.24.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/a2ymr5fank3jd7yv698m3s16a6sqzg69-nginx-1.24.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/lwj22jndv9kjl2smkbc8x2gw2jsz845l-nginx-1.24.0"
+        }
+      }
+    },
+    "php@8": {
+      "last_modified": "2023-11-19T17:46:56Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#php83",
+      "source": "devbox-search",
+      "version": "8.3.0RC6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ia5qrv88y0v0g3g40bx5k5bcqhwxjw03-php-with-extensions-8.3.0RC6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/l2nb2cwy01d1s7kr1f3137yhngi32gk4-php-with-extensions-8.3.0RC6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/391rw6n6f6lcx2agrhm0b8kj572v7n25-php-with-extensions-8.3.0RC6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/86h9h7r2mjm0mj1364ga3zgvll3xpw9m-php-with-extensions-8.3.0RC6"
+        }
+      }
+    },
+    "wp-cli@latest": {
+      "last_modified": "2024-03-23T13:32:18Z",
+      "resolved": "github:NixOS/nixpkgs/20bc93ca7b2158ebc99b8cef987a2173a81cde35#wp-cli",
+      "source": "devbox-search",
+      "version": "2.10.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rdhk7423r4pxn37b33p8i5lfz81f17ag-wp-cli-2.10.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rdhk7423r4pxn37b33p8i5lfz81f17ag-wp-cli-2.10.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jj07pgqa7z6vz071y4615srjn2zd9cff-wp-cli-2.10.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jj07pgqa7z6vz071y4615srjn2zd9cff-wp-cli-2.10.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hk281q0g1l6gl5ar1j4qbrzz9d4rdsxx-wp-cli-2.10.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hk281q0g1l6gl5ar1j4qbrzz9d4rdsxx-wp-cli-2.10.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0gairhrrvcs5r3j1imi1vvv9r9vsmm71-wp-cli-2.10.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0gairhrrvcs5r3j1imi1vvv9r9vsmm71-wp-cli-2.10.0"
+        }
+      }
+    }
+  }
+}
