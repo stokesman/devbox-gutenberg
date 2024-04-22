@@ -2,13 +2,29 @@
 
 This runs WordPress instances for developing and testing [Gutenberg](https://github.com/WordPress/gutenberg/) like the project’s own wp-env setup but without needing to run Docker.
 
-This doesn’t include the Gutenberg repo itself. The setup script needs to know the location where you keep yours and that can be configured at `env.GUTENBERG_REPO` in the `devbox.json` file.
+This doesn’t include the Gutenberg repo itself. It’s expected to provide the path of a local cloned repo to the script `setup_wp`in the env variable `GUTENBERG_REPO`. 
 
 Given devbox is installed (see [Getting Started](#getting-started)) to ready the environment run:
 ```
 devbox services up -b
 devbox run setup_db
-devbox run setup_wp
+```
+
+Then set up the WP instances and provide the path to the gutenberg repo either in the command:
+```
+devbox run --env GUTENBERG_REPO=/yer/gutenberg setup_wp
+```
+
+Or through an env file:
+```
+devbox run --env-file .env.devbox setup_wp
+```
+
+Example env file:
+```
+GUTENBERG_REPO=/yer/gutenberg
+# wp cli is used and you may wish to control its cache directory:
+WP_CLI_CACHE_DIR=/yer/Library/Caches
 ```
 
 That should be it 🍾.

@@ -28,7 +28,7 @@ http{
 		listen       $NGINX_DEV_PORT;
 		listen       [::]:$NGINX_DEV_PORT;
 		server_name  $NGINX_WEB_SERVER_NAME;	
-		root         $NGINX_DEV_ROOT;
+		root         ../../../$NGINX_DEV_ROOT;
 
 		location ~ \.php$ {
 			include fastcgi.conf;
@@ -43,7 +43,7 @@ http{
 		listen       $NGINX_TEST_PORT;
 		listen       [::]:$NGINX_TEST_PORT;
 		server_name  $NGINX_WEB_SERVER_NAME;
-		root         $NGINX_TEST_ROOT;
+		root         ../../../$NGINX_TEST_ROOT;
 
 		location ~ \.php$ {
 			include fastcgi.conf;

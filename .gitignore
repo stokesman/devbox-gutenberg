@@ -1,3 +1,4 @@
+.env.devbox
 .devbox/
 devbox.d/nginx/nginx.conf
 devbox.d/web/dev-wp/

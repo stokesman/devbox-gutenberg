@@ -7,13 +7,11 @@
 		"wp-cli@latest"
 	],
 	"env": {
-		"GUTENBERG_REPO": "~/Repos/gutenberg",
-		"WP_CLI_CACHE_DIR": "~/Library/Caches",
 		"NGINX_WEB_PORT": "80",
 		"NGINX_DEV_PORT": "8888",
-		"NGINX_DEV_ROOT": "../../../devbox.d/web/dev-wp",
+		"NGINX_DEV_ROOT": "devbox.d/web/dev-wp",
 		"NGINX_TEST_PORT": "8889",
-		"NGINX_TEST_ROOT": "../../../devbox.d/web/test-wp"
+		"NGINX_TEST_ROOT": "devbox.d/web/test-wp"
 	},
 	"shell": {
 		"init_hook": [
