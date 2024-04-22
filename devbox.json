@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
 	"packages": [
-		"php@8",
+		"php@latest",
 		"nginx@latest",
 		"mysql80@latest",
 		"wp-cli@latest"
