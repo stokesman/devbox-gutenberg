@@ -52,6 +52,10 @@ if [[ -n ${GUTENBERG_REPO-} ]]; then
 	# Installs other themes used in tests.
 	if wp --path"${NGINX_TEST_ROOT}" theme is-installed twentytwenty 2>/dev/null; then
 		wp --path="${NGINX_TEST_ROOT}" theme install twentytwenty; fi
+	if wp --path"${NGINX_TEST_ROOT}" theme is-installed twentytwentyone 2>/dev/null; then
+		wp --path="${NGINX_TEST_ROOT}" theme install twentytwentyone; fi
+	if wp --path"${NGINX_TEST_ROOT}" theme is-installed twentytwentythree 2>/dev/null; then
+		wp --path="${NGINX_TEST_ROOT}" theme install twentytwentythree; fi
 	if wp --path"${NGINX_TEST_ROOT}" theme is-installed twentytwentyfour 2>/dev/null; then
 		wp --path="${NGINX_TEST_ROOT}" theme install twentytwentyfour; fi
 else
