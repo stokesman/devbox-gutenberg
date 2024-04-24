@@ -48,6 +48,7 @@ if [[ -n ${GUTENBERG_REPO-} ]]; then
 	ln -s "${GUTENBERG_REPO}"/packages/e2e-tests/plugins/* "${NGINX_TEST_ROOT}"/wp-content/plugins/
 	# removes all symlinked themes and links them again.
 	find $NGINX_TEST_ROOT/wp-content/themes -type l | xargs rm
+	ln -s "${GUTENBERG_REPO}"/test/emptytheme "${NGINX_TEST_ROOT}"/wp-content/themes/
 	ln -s "${GUTENBERG_REPO}"/test/gutenberg-test-themes/* "${NGINX_TEST_ROOT}"/wp-content/themes/
 	# Installs other themes used in tests.
 	if wp --path"${NGINX_TEST_ROOT}" theme is-installed twentytwenty 2>/dev/null; then
