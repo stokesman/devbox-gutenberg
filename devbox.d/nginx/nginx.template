@@ -14,15 +14,6 @@ http{
 
 	server_tokens off;
 
-	# Default
-	# Not used other than to show something more helpful than an error page. See: ../web/index.html
-	server {
-		listen       $NGINX_WEB_PORT;
-		listen       [::]:$NGINX_WEB_PORT;
-		server_name  $NGINX_WEB_SERVER_NAME;
-		root         $NGINX_WEB_ROOT;
-	}
-
 	# Dev
 	server {
 		listen       $NGINX_DEV_PORT;
