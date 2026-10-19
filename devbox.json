@@ -4,13 +4,17 @@
 		"php@latest",
 		"nginx@latest",
 		"mysql80@latest",
-		"wp-cli@latest"
+		"wp-cli@latest",
+		"nodejs@26",
+		"corepack@latest",
+		"github-cli@latest"
 	],
 	"env": {
 		"NGINX_DEV_PORT": "8888",
 		"NGINX_DEV_ROOT": "devbox.d/web/dev-wp",
 		"NGINX_TEST_PORT": "8889",
-		"NGINX_TEST_ROOT": "devbox.d/web/test-wp"
+		"NGINX_TEST_ROOT": "devbox.d/web/test-wp",
+		"DEVBOX_COREPACK_ENABLED": "true"
 	},
 	"shell": {
 		"init_hook": [
